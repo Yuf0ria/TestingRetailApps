@@ -7,7 +7,6 @@ _**verify if you have node and npm**_
 ```
 node -v
 npm -v
-
 ```
 
 If you don't have node and npm install it first.

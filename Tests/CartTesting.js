@@ -160,8 +160,9 @@ async function validateTotalPrice () {
         )
         let text = await cartElement.getText()
         return text.includes('2 item(s)')
-      } catch (e) {}
-      return false
+      } catch (e) {
+        return false
+      }
     }, 5000)
 
     await driver

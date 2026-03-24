@@ -1,12 +1,18 @@
 const { Builder, By } = require('selenium-webdriver')
 let assert = require('assert')
 
-async function checkoutTesting () {
+const BASE_URL = 'http://localhost/index.php?route=checkout/cart&language=en-gb'
+
+async function createDriver () {
   let driver = await new Builder().forBrowser('chrome').build()
+  await driver.manage().window().maximize()
+  return driver
+}
+async function checkoutTesting () {
+  let driver = await createDriver()
 
   try {
-    await driver.get('http:/localhost/')
-    await driver.manage().window().maximize()
+    await driver.get(BASE_URL)
   } finally {
     //
   }

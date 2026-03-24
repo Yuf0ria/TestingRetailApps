@@ -1,7 +1,11 @@
-# Testing Retail Apps
-Using JavaScript and Selenium Webdriver to test apps.
-
 # Installation
+You will need the following applications:
+- Node.js
+- npm
+- selenium-webdriver
+- chromedriver
+- docker
+  
 _**verify if you have node and npm**_
 
 ```
@@ -22,6 +26,19 @@ npm init -y
 ```
  npm install selenium-webdriver chromedriver
 ```
+#### [Install Docker](https://www.docker.com/)
+> **_Click on the header section_**
+
+After you have Docker:
+- Download [open cart repository](https://www.opencart.com/index.php?route=cms/download/download&download_id=78)
+- Unzip open cart folder
+- Open Docker
+- Open terminal of open cart repository
+- In the terminal of the file containing the projects run:
+  ```
+  docker-compose up -d
+  ```
+- Launch [Localhost](http://localhost/)
 # Testing
 
 # Documentation

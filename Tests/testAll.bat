@@ -10,6 +10,7 @@ call :run "Authentication" Authentication.js
 call :run "Product" ProductTesting.js
 call :run "Cart" CartTesting.js
 call :run "Checkout" CheckoutTesting.js
+call :run "Contact Us" ContactUs.js
 call :run "Admin" AdminTesting.js
 
 echo.

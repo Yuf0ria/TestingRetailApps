@@ -81,4 +81,4 @@ async function runAll () {
   await searchProduct()
 }
 
-runAll()
+//runAll()

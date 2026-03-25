@@ -41,9 +41,9 @@ After you have Docker:
 
 - Download [open cart repository](https://www.opencart.com/index.php?route=cms/download/download&download_id=78)
 - Unzip open cart folder
-- Open Docker
+- Launch Docker
 - Open terminal of open cart repository
-- In the terminal of the file containing the projects run:
+- In the terminal of the file containing the open cart source files, run:
   ```
   docker-compose up -d
   ```

@@ -37,8 +37,6 @@ npm init -y
 
 #### [Install Docker](https://www.docker.com/)
 
-> **_Click on the header section_**
-
 After you have Docker:
 
 - Download [open cart repository](https://www.opencart.com/index.php?route=cms/download/download&download_id=78)

@@ -56,5 +56,3 @@ Run testAll.bat in terminal
 ```
 Tests/testAll.bat
 ```
-
-# Documentation

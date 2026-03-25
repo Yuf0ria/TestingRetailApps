@@ -153,5 +153,4 @@ async function runAll () {
   await emptyFieldsLogin()
   await logout()
 }
-
 runAll()
